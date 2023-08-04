@@ -24,7 +24,8 @@ public class OrganizeController {
     
     @PostMapping()
     public void create() {
-        service.create();
+        
+        service.create(null);
     }
 
     @GetMapping
